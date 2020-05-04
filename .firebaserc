@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "financedatapp": {
+      "hosting": {
+        "forms": [
+          "financedatapp"
+        ]
+      }
+    }
+  }
+}

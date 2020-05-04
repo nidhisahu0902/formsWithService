@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+          <app-add-member></app-add-member>
+      </div>
+      <div class="col-lg-6">
+        <h5>list of all members</h5>
+        <br>
+            <app-member-card [member]="item" [index]="i" *ngFor="let item of members;let i=index"></app-member-card>
+      </div>
+      
+    </div>
+  </div>
+  
